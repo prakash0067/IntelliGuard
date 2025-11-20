@@ -178,19 +178,23 @@ IntelliGuard/
 ## 📦 Installation
 
 ### 1️⃣ Clone the Repository
+```
 git clone https://github.com/prakash0067/IntelliGuard.git
 cd IntelliGuard
-
+```
 ### 2️⃣ (Optional) Create Virtual Environment
+```
 python -m venv venv
 venv\Scripts\activate     # On Windows
-
+```
 ### 3️⃣ Install Requirements
+```
 pip install -r requirements.txt
-
+```
 ### 4️⃣ Run the Application
+```
 python main.py
-
+```
 ---
 
 ## 📁 Where Data is Stored
