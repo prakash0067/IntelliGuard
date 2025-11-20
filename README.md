@@ -87,28 +87,28 @@ A beautifully formatted daily summary including:
 ## 🖼️ Screenshots
 
 ### 🏠 Home Screen  
-`<img width="1172" height="772" alt="Home Page" src="https://github.com/user-attachments/assets/9ac2f9ff-5005-4f50-9bf3-39e7b66baf08" />`
+<img width="1172" height="772" alt="Home Page" src="https://github.com/user-attachments/assets/9ac2f9ff-5005-4f50-9bf3-39e7b66baf08" />
 
 ### 🧹 Auto Cleanup  
-`<img width="1172" height="772" alt="Auto-Cleanup" src="https://github.com/user-attachments/assets/071b3725-7580-470a-8151-057e9eac5bd0" />`
+<img width="1172" height="772" alt="Auto-Cleanup" src="https://github.com/user-attachments/assets/071b3725-7580-470a-8151-057e9eac5bd0" />
 
 ### 🗂️ Duplicate File Finder  
-`<img width="1172" height="772" alt="Duplicate Files in dowload" src="https://github.com/user-attachments/assets/1f8687c6-2b78-480f-aa98-c55797084c38" />`
+<img width="1172" height="772" alt="Duplicate Files in dowload" src="https://github.com/user-attachments/assets/1f8687c6-2b78-480f-aa98-c55797084c38" />
 
 ### 🔋 Battery Health  
-`<img width="565" height="612" alt="Battery Health Summary" src="https://github.com/user-attachments/assets/30d96424-40ba-45be-9fdd-70d3a1bae935" />`
+<img width="565" height="612" alt="Battery Health Summary" src="https://github.com/user-attachments/assets/30d96424-40ba-45be-9fdd-70d3a1bae935" />
 
 ### 📡 Network Monitor  
-`<img width="1172" height="772" alt="Network Details" src="https://github.com/user-attachments/assets/30521b04-74f8-43e5-9045-0bd5f224232f" />`
+<img width="1172" height="772" alt="Network Details" src="https://github.com/user-attachments/assets/30521b04-74f8-43e5-9045-0bd5f224232f" />
 
 ### 💾 Storage Overview  
-`<img width="1172" height="772" alt="Storage Details" src="https://github.com/user-attachments/assets/47a57727-c67d-41ae-b114-e0d3dcf56b6d" />`
+<img width="1172" height="772" alt="Storage Details" src="https://github.com/user-attachments/assets/47a57727-c67d-41ae-b114-e0d3dcf56b6d" />
 
 ### 🔧 Stability Analyzer  
-`<img width="1065" height="602" alt="App stability Check" src="https://github.com/user-attachments/assets/4c2f415a-9adf-4b8b-bae2-3f5fa04ec6f5" />`
+<img width="1065" height="602" alt="App stability Check" src="https://github.com/user-attachments/assets/4c2f415a-9adf-4b8b-bae2-3f5fa04ec6f5" />
 
 ### 📘 Daily System Story  
-`<img width="581" height="702" alt="Daily Summary" src="https://github.com/user-attachments/assets/12051525-615a-4b42-ad84-cd6041395f32" />`
+<img width="581" height="702" alt="Daily Summary" src="https://github.com/user-attachments/assets/12051525-615a-4b42-ad84-cd6041395f32" />
 
 ---
 
