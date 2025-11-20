@@ -114,35 +114,52 @@ A beautifully formatted daily summary including:
 
 ## 🏗️ Project Structure
 
+```
 IntelliGuard/
 │
 ├── backend/
-│   ├── monitors/
-│   │   ├── system_monitor.py
-│   │   ├── battery_monitor.py
-│   │   ├── disk_monitor.py
-│   │   └── network_monitor.py
 │   ├── analytics/
 │   │   ├── battery_predictor.py
-│   │   ├── stability_analyzer.py
-│   │   └── daily_story.py
+│   │   ├── daily_story.py
+│   │   └── stability_analyzer.py
+│   │
 │   ├── cleaners/
 │   │   ├── downloads_cleaner.py
 │   │   └── duplicate_finder.py
+│   │
+│   ├── monitors/
+│   │   ├── battery_monitor.py
+│   │   ├── disk_monitor.py
+│   │   ├── network_monitor.py
+│   │   └── system_monitor.py
+│   │
 │   ├── config.py
+│   ├── data_store.py
 │   ├── logger.py
-│   └── data_store.py
+│   └── notifier.py
 │
 ├── ui/
+│   ├── icons/
+│   │   ├── battery.png
+│   │   ├── cleanup.png
+│   │   ├── cpu.png
+│   │   ├── network.png
+│   │   ├── settings.png
+│   │   ├── stability.png
+│   │   ├── storage.png
+│   │   └── story.png
+│   │
 │   ├── main_window.ui
-│   ├── main_window.py
-│   └── icons/
+│   └── main_window.py
 │
 ├── reports/
+│   └── battery_health_log.json
 │
 ├── main.py
 ├── requirements.txt
+├── system.log
 └── README.md
+```
 
 ---
 
