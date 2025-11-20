@@ -1,9 +1,4 @@
 psutil
 PySide6
 matplotlib
-
-# activate env
-.\intelliguard-env\Scripts\activate
-
-# run file
-python main.py
+numpy
