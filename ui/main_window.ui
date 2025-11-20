@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowUI</class>
+
+ <widget class="QMainWindow" name="MainWindowUI">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>1200</width><height>820</height></rect>
+  </property>
+  <property name="windowTitle">
+   <string>IntelliGuard</string>
+  </property>
+
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="mainLayout">
+    <property name="spacing"><number>10</number></property>
+    <property name="leftMargin"><number>20</number></property>
+    <property name="topMargin"><number>15</number></property>
+    <property name="rightMargin"><number>20</number></property>
+    <property name="bottomMargin"><number>15</number></property>
+
+    <!-- HEADER -->
+    <item>
+     <widget class="QWidget" name="headerWidget">
+      <layout class="QVBoxLayout" name="headerLayout">
+       <property name="spacing"><number>3</number></property>
+
+       <item>
+        <widget class="QLabel" name="labelAppName">
+         <property name="text"><string>IntelliGuard</string></property>
+         <property name="alignment"><set>Qt::AlignCenter</set></property>
+         <property name="styleSheet">
+          <string>
+           font-size: 32px;
+           font-weight: bold;
+           padding-top: 8px;
+          </string>
+         </property>
+        </widget>
+       </item>
+
+       <item>
+        <widget class="QLabel" name="labelSubtitle">
+         <property name="text">
+          <string>Smart System Monitor &amp; Optimization Suite</string>
+         </property>
+         <property name="alignment"><set>Qt::AlignCenter</set></property>
+         <property name="styleSheet">
+          <string>font-size: 15px; color: #666;</string>
+         </property>
+        </widget>
+       </item>
+
+      </layout>
+     </widget>
+    </item>
+
+    <!-- NAVBAR -->
+    <item>
+     <widget class="QWidget" name="navBarWidget">
+      <layout class="QHBoxLayout" name="navBarLayout">
+       <property name="spacing"><number>10</number></property>
+       <property name="leftMargin"><number>0</number></property>
+       <property name="topMargin"><number>0</number></property>
+       <property name="rightMargin"><number>0</number></property>
+       <property name="bottomMargin"><number>0</number></property>
+
+       <item>
+        <widget class="QPushButton" name="btnBack">
+         <property name="text"><string>← Back</string></property>
+         <property name="minimumHeight"><number>36</number></property>
+         <property name="styleSheet">
+          <string>
+           QPushButton {
+             border-radius: 8px;
+             padding: 6px 12px;
+             font-size: 14px;
+           }
+           QPushButton:hover { background: #e5e5e5; }
+          </string>
+         </property>
+        </widget>
+       </item>
+
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+
+    <!-- MAIN STACKED WIDGET -->
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+
+      <!-- DASHBOARD -->
+      <widget class="QWidget" name="pageDashboard">
+       <layout class="QGridLayout" name="dashboardLayout">
+        <property name="horizontalSpacing"><number>22</number></property>
+        <property name="verticalSpacing"><number>22</number></property>
+        <property name="leftMargin"><number>20</number></property>
+        <property name="topMargin"><number>15</number></property>
+        <property name="rightMargin"><number>20</number></property>
+        <property name="bottomMargin"><number>15</number></property>
+
+        <!-- Row 1 -->
+        <item row="0" column="0">
+         <widget class="QToolButton" name="btnCardCleanup">
+          <property name="text"><string>Cleanup</string></property>
+          <property name="icon"><iconset>icons/cleanup.png</iconset></property>
+          <property name="iconSize"><size><width>96</width><height>96</height></size></property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextUnderIcon</enum>
+          </property>
+         </widget>
+        </item>
+
+        <item row="0" column="1">
+         <widget class="QToolButton" name="btnCardMonitor">
+          <property name="text"><string>CPU &amp; RAM</string></property>
+          <property name="icon"><iconset>icons/cpu.png</iconset></property>
+          <property name="iconSize"><size><width>96</width><height>96</height></size></property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextUnderIcon</enum>
+          </property>
+         </widget>
+        </item>
+
+        <item row="0" column="2">
+         <widget class="QToolButton" name="btnCardBattery">
+          <property name="text"><string>Battery Age</string></property>
+          <property name="icon"><iconset>icons/battery.png</iconset></property>
+          <property name="iconSize"><size><width>96</width><height>96</height></size></property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextUnderIcon</enum>
+          </property>
+         </widget>
+        </item>
+
+        <item row="0" column="3">
+         <widget class="QToolButton" name="btnCardStability">
+          <property name="text"><string>Stability</string></property>
+          <property name="icon"><iconset>icons/stability.png</iconset></property>
+          <property name="iconSize"><size><width>96</width><height>96</height></size></property>
+          <property name="toolButtonStyle">
+           <enum>Qt::ToolButtonTextUnderIcon</enum>
+          </property>
+         </widget>
+        </item>
+
+        <!-- Row 2 -->
+        <item row="1" column="0">
+         <widget class="QToolButton" name="btnCardStorage">
+			<property name="text"><string>Storage</string></property>
+			<property name="icon"><iconset>icons/storage.png</iconset></property>
+			<property name="toolButtonStyle"><enum>Qt::ToolButtonTextUnderIcon</enum></property>
+		</widget>
+        </item>
+
+        <item row="1" column="1">
+         <widget class="QToolButton" name="btnCardNetwork">
+			<property name="text"><string>Network</string></property>
+			<property name="icon"><iconset>icons/network.png</iconset></property>
+			<property name="toolButtonStyle"><enum>Qt::ToolButtonTextUnderIcon</enum></property>
+			</widget>
+        </item>
+
+        <item row="1" column="2">
+         <widget class="QToolButton" name="btnCardStory">
+			<property name="text"><string>Daily Story</string></property>
+			<property name="icon"><iconset>icons/story.png</iconset></property>
+			<property name="toolButtonStyle"><enum>Qt::ToolButtonTextUnderIcon</enum></property>
+			</widget>
+        </item>
+
+        <item row="1" column="3">
+         <widget class="QToolButton" name="btnCardSettings">
+			<property name="text"><string>Settings</string></property>
+			<property name="icon"><iconset>icons/settings.png</iconset></property>
+			<property name="toolButtonStyle"><enum>Qt::ToolButtonTextUnderIcon</enum></property>
+			</widget>
+        </item>
+
+       </layout>
+      </widget>
+
+      <!-- MONITOR PAGE -->
+      <widget class="QWidget" name="pageMonitor">
+       <layout class="QVBoxLayout" name="monitorLayout">
+        <property name="leftMargin"><number>8</number></property>
+        <property name="topMargin"><number>8</number></property>
+        <property name="rightMargin"><number>8</number></property>
+        <property name="bottomMargin"><number>8</number></property>
+
+        <item><widget class="QWidget" name="cpuCanvas"/></item>
+        <item><widget class="QWidget" name="ramCanvas"/></item>
+
+        <item>
+         <widget class="QWidget" name="monitorStats">
+         <layout class="QVBoxLayout" name="statsLayout">
+            <item><widget class="QLabel" name="labelCpuStats" /></item>
+            <item><widget class="QLabel" name="labelRamStats" /></item>
+         </layout>
+         </widget>
+         </item>
+
+       </layout>
+      </widget>
+
+      	<!-- CLEANUP PAGE -->
+		<widget class="QWidget" name="pageCleanup">
+		<layout class="QVBoxLayout" name="layoutCleanup">
+		<property name="leftMargin"><number>10</number></property>
+		<property name="topMargin"><number>10</number></property>
+		<property name="rightMargin"><number>10</number></property>
+		<property name="bottomMargin"><number>10</number></property>
+
+		<!-- TITLE -->
+		<item>
+		<widget class="QLabel" name="labelCleanupTitle">
+			<property name="text"><string>Downloads Cleanup Center</string></property>
+			<property name="styleSheet"><string>font-size:22px; font-weight:bold;</string></property>
+		</widget>
+		</item>
+
+		<!-- TABS -->
+		<item>
+		<widget class="QTabWidget" name="cleanupTabs">
+
+			<!-- AUTO CLEANUP TAB -->
+			<widget class="QWidget" name="tabAutoCleanup">
+			<attribute name="title"><string>Auto Cleanup</string></attribute>
+			<layout class="QVBoxLayout">
+			<item><widget class="QLabel" name="labelAutoTitle">
+				<property name="text"><string>Delete old files from Downloads</string></property>
+			</widget></item>
+
+			<item><widget class="QComboBox" name="comboCleanupDays" /></item>
+			<item><widget class="QPushButton" name="btnApplyCleanup"><property name="text"><string>Apply Settings</string></property></widget></item>
+			<item><widget class="QPushButton" name="btnRunCleanup"><property name="text"><string>Run Cleanup Now</string></property></widget></item>
+			<item><widget class="QTextEdit" name="textCleanupReport" /></item>
+			</layout>
+			</widget>
+
+			<!-- DUPLICATE CLEANUP TAB -->
+			<widget class="QWidget" name="tabDuplicates">
+			<attribute name="title"><string>Duplicate Files</string></attribute>
+
+			<layout class="QVBoxLayout">
+
+			<item>
+			<widget class="QLabel" name="labelDupTitle">
+				<property name="text"><string>Find and remove duplicate files</string></property>
+				<property name="styleSheet"><string>font-size:16px;</string></property>
+			</widget>
+			</item>
+
+			<item>
+			<widget class="QPushButton" name="btnScanDuplicates">
+				<property name="text"><string>Scan for Duplicates</string></property>
+			</widget>
+			</item>
+
+			<item>
+			<widget class="QTableWidget" name="tableDuplicates">
+				<property name="columnCount"><number>4</number></property>
+				<column>
+				<property name="text"><string>Select</string></property>
+				</column>
+				<column>
+				<property name="text"><string>Filename</string></property>
+				</column>
+				<column>
+				<property name="text"><string>Size</string></property>
+				</column>
+				<column>
+				<property name="text"><string>Modified</string></property>
+				</column>
+			</widget>
+			</item>
+
+			<item>
+			<widget class="QPushButton" name="btnDeleteDuplicates">
+				<property name="text"><string>Delete Selected Files</string></property>
+			</widget>
+			</item>
+
+			</layout>
+			</widget>
+
+		</widget>
+		</item>
+
+		</layout>
+		</widget>
+
+
+      <!-- STORAGE -->
+      <widget class="QWidget" name="pageStorage">
+       <layout class="QVBoxLayout">
+        <item><widget class="QWidget" name="diskCanvas"/></item>
+       </layout>
+      </widget>
+
+      <!-- NETWORK PAGE -->
+      <widget class="QWidget" name="pageNetwork">
+      <layout class="QVBoxLayout" name="networkLayout">
+
+      <!-- Section Title -->
+      <item>
+         <widget class="QLabel" name="labelNetworkTitle">
+         <property name="text"><string>Network Activity</string></property>
+         <property name="alignment"><set>Qt::AlignCenter</set></property>
+         <property name="styleSheet">
+         <string>
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+         </string>
+         </property>
+         </widget>
+      </item>
+
+      <!-- Live Speed Info -->
+      <item>
+         <widget class="QWidget" name="networkInfoBox">
+         <layout class="QGridLayout">
+
+         <item row="0" column="0">
+            <widget class="QLabel" name="labelCurrentDown">
+            <property name="text"><string>↓ 0 KB/s</string></property>
+            <property name="styleSheet"><string>font-size:16px;</string></property>
+            </widget>
+         </item>
+
+         <item row="0" column="1">
+            <widget class="QLabel" name="labelCurrentUp">
+            <property name="text"><string>↑ 0 KB/s</string></property>
+            <property name="styleSheet"><string>font-size:16px;</string></property>
+            </widget>
+         </item>
+
+         <item row="1" column="0">
+            <widget class="QLabel" name="labelPeakDown">
+            <property name="text"><string>Peak Download: -</string></property>
+            <property name="styleSheet"><string>font-size:14px; color:#555;</string></property>
+            </widget>
+         </item>
+
+         <item row="1" column="1">
+            <widget class="QLabel" name="labelPeakUp">
+            <property name="text"><string>Peak Upload: -</string></property>
+            <property name="styleSheet"><string>font-size:14px; color:#555;</string></property>
+            </widget>
+         </item>
+
+         <item row="2" column="0" colspan="2">
+            <widget class="QLabel" name="labelAdapter">
+            <property name="text"><string>Adapter: -</string></property>
+            <property name="styleSheet"><string>font-size:14px;</string></property>
+            </widget>
+         </item>
+
+         </layout>
+         </widget>
+      </item>
+
+      <!-- Network Graph Canvas -->
+      <item>
+         <widget class="QWidget" name="networkCanvas" />
+      </item>
+
+      </layout>
+      </widget>
+
+
+     </widget>
+    </item>
+
+   </layout>
+  </widget>
+
+ </widget>
+</ui>

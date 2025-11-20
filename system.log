@@ -1,0 +1,86 @@
+[2025-11-17 11:59:41] Cleanup days set to 15 via UI.
+[2025-11-17 11:59:45] Cleanup days set to 10 via UI.
+[2025-11-19 22:31:29] ALERT: Battery high while plugged: 100%
+[2025-11-19 22:31:30] Battery overcharge warning: 100%
+[2025-11-19 22:47:58] MainWindow initialized.
+[2025-11-19 22:47:58] ALERT: Battery high while plugged: 100%
+[2025-11-19 22:47:59] Battery overcharge warning: 100%
+[2025-11-19 23:25:36] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:25:36] Battery overcharge warning: 100%
+[2025-11-19 23:26:02] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:26:02] Battery overcharge warning: 100%
+[2025-11-19 23:26:07] Daily story generated successfully.
+[2025-11-19 23:43:27] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:44:44] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:44:45] Battery overcharge warning: 100%
+[2025-11-19 23:45:15] Daily story generated successfully.
+[2025-11-19 23:45:46] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:45:46] Battery overcharge warning: 100%
+[2025-11-19 23:49:55] Starting downloads cleanup with rule: delete files older than 15 days.
+[2025-11-19 23:49:56] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:49:57] Downloads cleanup finished.
+[2025-11-19 23:50:51] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:50:52] Battery overcharge warning: 100%
+[2025-11-19 23:51:10] Daily story generated successfully.
+[2025-11-19 23:51:53] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:51:54] Battery overcharge warning: 100%
+[2025-11-19 23:52:55] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:52:55] Battery overcharge warning: 100%
+[2025-11-19 23:53:21] Daily story generated successfully.
+[2025-11-19 23:54:48] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:54:48] Battery overcharge warning: 100%
+[2025-11-19 23:55:26] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:55:26] Battery overcharge warning: 100%
+[2025-11-19 23:56:44] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:56:44] Battery overcharge warning: 100%
+[2025-11-19 23:57:45] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:57:46] Battery overcharge warning: 100%
+[2025-11-19 23:58:47] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:58:48] Battery overcharge warning: 100%
+[2025-11-19 23:59:47] ALERT: Battery high while plugged: 100%
+[2025-11-19 23:59:47] Battery overcharge warning: 100%
+[2025-11-20 00:05:20] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:05:20] Battery overcharge warning: 100%
+[2025-11-20 00:06:22] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:06:22] Battery overcharge warning: 100%
+[2025-11-20 00:07:24] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:07:24] Battery overcharge warning: 100%
+[2025-11-20 00:08:07] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:08:07] Battery overcharge warning: 100%
+[2025-11-20 00:09:09] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:09:09] Battery overcharge warning: 100%
+[2025-11-20 00:10:10] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:10:10] Battery overcharge warning: 100%
+[2025-11-20 00:11:12] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:11:12] Battery overcharge warning: 100%
+[2025-11-20 00:12:12] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:12:12] Battery overcharge warning: 100%
+[2025-11-20 00:36:35] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:36:35] Battery overcharge warning: 100%
+[2025-11-20 00:37:36] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:37:36] Battery overcharge warning: 100%
+[2025-11-20 00:38:37] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:38:38] Battery overcharge warning: 100%
+[2025-11-20 00:39:39] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:39:40] Battery overcharge warning: 100%
+[2025-11-20 00:40:41] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:40:42] Battery overcharge warning: 100%
+[2025-11-20 00:41:33] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:41:33] Battery overcharge warning: 100%
+[2025-11-20 00:42:35] ALERT: Battery high while plugged: 100%
+[2025-11-20 00:42:35] Battery overcharge warning: 100%
+[2025-11-20 00:45:42] Daily story generated successfully.
+[2025-11-20 00:56:07] [BackendController] Worker loop error: name 'now_ts' is not defined
+[2025-11-20 00:57:07] [BackendController] Worker loop error: name 'now_ts' is not defined
+[2025-11-20 00:58:07] [BackendController] Worker loop error: name 'now_ts' is not defined
+[2025-11-20 00:58:51] [BackendController] Worker loop error: name 'now_ts' is not defined
+[2025-11-20 00:58:56] [BackendController] Worker loop error: name 'now_ts' is not defined
+[2025-11-20 00:59:02] [BackendController] Worker loop error: 'SystemMonitor' object has no attribute 'sysmon'
+[2025-11-20 00:59:07] [BackendController] Worker loop error: name 'now_ts' is not defined
+[2025-11-20 00:59:15] [BackendController] Worker loop error: 'SystemMonitor' object has no attribute 'sysmon'
+[2025-11-20 00:59:23] [BackendController] Worker loop error: 'SystemMonitor' object has no attribute 'sysmon'
+[2025-11-20 00:59:28] [BackendController] Worker loop error: name 'now_ts' is not defined
+[2025-11-20 00:59:33] [BackendController] Worker loop error: name 'now_ts' is not defined
+[2025-11-20 00:59:38] [BackendController] Worker loop error: name 'now_ts' is not defined
+[2025-11-20 00:59:46] [BackendController] Worker loop error: 'SystemMonitor' object has no attribute 'sysmon'
+[2025-11-20 01:13:43] Daily story generated successfully.

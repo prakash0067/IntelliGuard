@@ -1,0 +1,19 @@
+# Ignore virtual environments
+intelliguard-env/
+env/
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore build files
+build/
+dist/
+
+# Ignore logs and reports
+reports/
+
+# Ignore OS trash
+Thumbs.db
+.DS_Store
